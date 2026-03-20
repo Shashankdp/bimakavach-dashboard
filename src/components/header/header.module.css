@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: 1px solid #DFE0E2;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 12px;
+  }
+}
